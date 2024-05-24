@@ -9,6 +9,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer ul {
@@ -19,4 +20,10 @@ footer ul {
 
 footer a {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+    }
 }
