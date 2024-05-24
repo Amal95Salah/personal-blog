@@ -1,0 +1,22 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a {
+    color: #fff;
+}
