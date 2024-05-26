@@ -32,12 +32,6 @@ article header figure {
     padding: 0.5rem 1rem;
 }
 
-.blog-post p span {
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-}
-
 .blog-post h3 {
     font-size: 1rem;
     margin: 1rem 0;
@@ -53,7 +47,7 @@ blockquote {
     color: #333;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 600px) {
     article header {
         flex-wrap: wrap;
     }

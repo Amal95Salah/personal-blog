@@ -14,7 +14,7 @@
         <div class="logo">
             <img src="assets/images/logo.png" alt="logo">
         </div>
-        <div>
+        <div class="nav-bar">
             <ul>
                 <li>
                     <a href="/">
@@ -44,7 +44,7 @@
         <header>
             <h1>Contact</h1>
         </header>
-        <section>
+        <section id = "cotact-section">
             <p>
                 email: <a href="mailto:amal95salah@gmail.com">amalamal95salah@gmail.com</a>
             </p>
@@ -64,15 +64,15 @@
         <section class="contact-form">
             <h2>Send me a message</h2>
             <form action="contact.php" method="POST">
-                <div>
+                <div class="contact-name">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
-                <div>
+                <div class="contact-email">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <div>
+                <div class="contact-message">
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
@@ -81,10 +81,10 @@
         </section>
     </article>
     <footer>
-        <div>
+        <div class="copy-write">
             <p>&copy; 2024 Personal Blog</p>
         </div>
-        <div>
+        <div class="footer-nav">
             <ul>
                 <li>
                     <a href="/">Home</a>
